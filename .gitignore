@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Credentials / secrets
+credentials.json
+SheetID.txt
+
+# Model / training files (optional but recommended)
+trainer.yml
+
+# Images (avoid uploading raw data)
+*.jpg
+*.jpeg
+*.png
+*.txt
+
+# Except faces folder if needed (optional)
+!faces/
+
+# Temporary / test files
+test_*.jpg
+
+# Logs
+*.log
+
+# Text backups (optional)
+*_working_*.txt
